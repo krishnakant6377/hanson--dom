@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<style>
+    body{background-color: rgb(68, 230, 149);
+    font-size: 1em;}
+    #parent{display: flex;
+    flex-wrap: wrap;
+    background-color: cadetblue;
+    border: 2px solid aqua;
+    }
+    .child{width: 20vw;
+    height: 20vh;
+    background-color: blueviolet;
+    color: aliceblue;
+    margin: 10px;
+    border: 2px solid tomato;
+    padding: 5px;
+    }
+    #pp{display: flex;
+    justify-content: space-evenly;}
+</style>
+<body>
+    <div id="text"> i m div with id "text"/div>
+
+    <h1>Welcome to PrepBytes</h1>
+    
+    <h1 class="box">i am div with class as "box"</h1>
+
+ <h2  >hello </h2>
+<div  id="parent">
+    <div class="child">i am first card</div>
+    <div class="child">i am second card</div>
+    <div class="child">i am third card</div>
+
+
+</div>
+<br>
+<button id="btn" onclick="chnge()">click me to change direnction of flex </button>
+
+<pre>
+    #Document
+    It is the root element of the document object model.
+
+    It is loaded inside the window.
+    By accessing the document object, we can access the element in the HTML page.
+     With the help of document objects, 
+    we can add dynamic content to our web page.
+
+    #Window
+
+    It is the very first object that is loaded in the browser.
+
+
+    The window is the global element for all objects, functions, etc.</pre>
+
+<br>
+<h1 id="heading">Hello</h1>
+
+
+<h4 id="one"> Create an HTML page having content as Hello world and a button named Replace Text. When user will click on this button page content should be changed to "Welcome to Elevation academy"</h4>
+<br>
+<button id="btn" onclick="change()">click me to change the upper text </button>
+<br><br>
+<div id="pp">
+<div id="hours"></div>
+<div id="mins"></div>
+<div id="secs"></div>
+<div id="meridian"></div></div>
+<br><br>
+<p class="settext">Select year</p>
+<select name="" id="wakeUpTime" class="set" >
+    <option value="">2020-21</option>
+    <option value="0">2021-2022</option>
+
+    <script src="index.js"></script>
+</body>
+</html>
